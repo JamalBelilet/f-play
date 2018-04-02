@@ -3,16 +3,19 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { AtForminiComponent } from './at-formini/at-formini.component';
+import { DbMetaDataService } from './db-meta-data.service';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AtForminiComponent
   ],
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [DbMetaDataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
