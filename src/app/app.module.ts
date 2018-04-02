@@ -7,6 +7,7 @@ import { DbMetaDataService } from './db-meta-data.service';
 import { FpHeaderComponent } from './fp-header/fp-header.component';
 import { FpFooterComponent } from './fp-footer/fp-footer.component';
 import { FpPlayComponent } from './fp-play/fp-play.component';
+import { FpPlayItemComponent } from './fp-play-item/fp-play-item.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { FpPlayComponent } from './fp-play/fp-play.component';
     AppComponent,
     FpHeaderComponent,
     FpFooterComponent,
-    FpPlayComponent
+    FpPlayComponent,
+    FpPlayItemComponent
   ],
   imports: [
     BrowserModule
