@@ -1,0 +1,33 @@
+.container {
+  background: #003d50;
+  padding: 5px;
+}
+
+.container * {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: white;
+  font-size: 1.2em;
+}
+
+p {
+  color: #DFDFDF;
+  font-size: .9em;
+  margin: 5px 0 !important;
+}
+
+input {
+  background: rgba(255,255,255, .7);
+  border: 0 !important;
+  padding: 5px !important;
+  border-radius: 3px;
+
+  color: #003D50;
+}
+
+::placeholder {
+  color: #003D50;
+}

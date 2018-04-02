@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AtForminiComponent } from './at-formini.component';
+import { FpFooterComponent } from './fp-footer.component';
 
-describe('AtForminiComponent', () => {
-  let component: AtForminiComponent;
-  let fixture: ComponentFixture<AtForminiComponent>;
+describe('FpFooterComponent', () => {
+  let component: FpFooterComponent;
+  let fixture: ComponentFixture<FpFooterComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AtForminiComponent ]
+      declarations: [ FpFooterComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AtForminiComponent);
+    fixture = TestBed.createComponent(FpFooterComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -3,14 +3,22 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { AtForminiComponent } from './at-formini/at-formini.component';
 import { DbMetaDataService } from './db-meta-data.service';
+import { FpHeaderComponent } from './fp-header/fp-header.component';
+import { FpPlayComponent } from './fp-play/fp-play.component';
+import { FpFooterComponent } from './fp-footer/fp-footer.component';
+import { FpItemComponent } from './fp-item/fp-item.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    AtForminiComponent
+    FpHeaderComponent,
+    FpPlayComponent,
+
+    FpFooterComponent,
+
+    FpItemComponent,
   ],
   imports: [
     BrowserModule
